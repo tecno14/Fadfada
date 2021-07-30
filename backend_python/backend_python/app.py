@@ -14,7 +14,7 @@ from Models.VideoProcessing.VideoEditor import VideoEditor
 from Models.AI.model_emotion import model_emotion
 from Models.AI.model_suicide_detection import model_P
 
-UPLOAD_FOLDER = './uploads'
+UPLOAD_FOLDER = './UploadDIR'
 ALLOWED_EXTENSIONS = {'mp4', 'png', 'jpg', 'jpeg', 'gif'}
 WEB_SERVER = "http://127.0.0.1:5000" # "http://192.168.1.2:8000"
 
